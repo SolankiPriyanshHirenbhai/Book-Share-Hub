@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "896240117635",
+    "project_id": "book-share-hub-final",
+    "storage_bucket": "book-share-hub-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896240117635:android:bd72090367390ec2bc38b6",
+        "android_client_info": {
+          "package_name": "com.project6.booksharehub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_us0-fxoMmOQ8nzxakK1FvNJld1bxMw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

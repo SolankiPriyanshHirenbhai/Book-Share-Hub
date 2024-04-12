@@ -1,0 +1,27 @@
+<resources>
+    <string name="welcome_message">Welcome to Book Share Hub</string>
+    <string name="app_name">Book Share Hub</string>
+    <string name="login">LogIn</string>
+    <string name="signup">Sign Up</string>
+    <string name="skip">Continue without LogIn</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="noAccount">Not Have Account?<b> SignUp</b></string>
+    <string name="alreadyAccount">Already Have An Account? <b>SignIn</b></string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="newAccount">Create New Account</string>
+    <string name="btnBack">btnBack</string>
+    <string name="logo">Logo</string>
+    <string name="title_home">Home</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="chat">Chat</string>
+    <string name="home">Home</string>
+    <string name="my_profile">My Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
