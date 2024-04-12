@@ -12,15 +12,4 @@
 /captures
 .externalNativeBuild
 .cxx
-/build/
-*.apk
-*.ap_
-.gradle/
-/google-services.json
-/app/google-services.json
-/app/google-services/
-/app/build/
-/captures/
-.classpath
-.project
-.settings/
+local.properties
