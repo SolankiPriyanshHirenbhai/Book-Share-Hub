@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="alreadyAccount">Already Have An Account? <b>SignIn</b></string>
+    <string name="app_name">Book Share Hub</string>
+    <string name="btnBack">btnBack</string>
+    <string name="chat">Chat</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="email">Email</string>
+    <string name="gcm_defaultSenderId" translatable="false">896240117635</string>
+    <string name="google_api_key" translatable="false">AIzaSyC_us0-fxoMmOQ8nzxakK1FvNJld1bxMw0</string>
+    <string name="google_app_id" translatable="false">1:896240117635:android:bd72090367390ec2bc38b6</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC_us0-fxoMmOQ8nzxakK1FvNJld1bxMw0</string>
+    <string name="google_storage_bucket" translatable="false">book-share-hub-final.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="login">LogIn</string>
+    <string name="logo">Logo</string>
+    <string name="my_profile">My Profile</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="newAccount">Create New Account</string>
+    <string name="noAccount">Not Have Account?<b> SignUp</b></string>
+    <string name="password">Password</string>
+    <string name="project_id" translatable="false">book-share-hub-final</string>
+    <string name="signup">Sign Up</string>
+    <string name="skip">Continue without LogIn</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_home">Home</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="welcome_message">Welcome to Book Share Hub</string>
+    <style name="Base.Theme.BookShareHub" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.BookShareHub" parent="Base.Theme.BookShareHub"/>
+</resources>

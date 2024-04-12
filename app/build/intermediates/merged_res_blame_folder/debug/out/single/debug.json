@@ -1,0 +1,470 @@
+[
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/layout_fragment_chat.xml.flat",
+        "source": "com.project6.booksharehub.app-main-51:/layout/fragment_chat.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-mdpi_ic_home_black_24dp.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-mdpi/ic_home_black_24dp.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-ldpi_ic_back.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-ldpi/ic_back.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xhdpi_ic_logo_background.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xhdpi/ic_logo_background.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/xml_data_extraction_rules.xml.flat",
+        "source": "com.project6.booksharehub.app-main-51:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xhdpi_ic_profile.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xhdpi/ic_profile.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-xxxhdpi_ic_logo.webp.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-xxxhdpi/ic_logo.webp"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/layout_activity_main2.xml.flat",
+        "source": "com.project6.booksharehub.app-main-51:/layout/activity_main2.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xxhdpi_ic_home.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xxhdpi/ic_home.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xxxhdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xxxhdpi/ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-anydpi-v21_ic_profile.xml.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-anydpi-v21/ic_profile.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-anydpi-v21_ic_email.xml.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-anydpi-v21/ic_email.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xxxhdpi_ic_notifications_black_24dp.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xxxhdpi/ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-ldpi_ic_home.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-ldpi/ic_home.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-mdpi_ic_logo_background.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-mdpi/ic_logo_background.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-mdpi_ic_back.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-mdpi/ic_back.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xxhdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xxhdpi/ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-mdpi_ic_home.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-mdpi/ic_home.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-ldpi_ic_logo_background.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-ldpi/ic_logo_background.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-ldpi_ic_home_black_24dp.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-ldpi/ic_home_black_24dp.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xhdpi_ic_home.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xhdpi/ic_home.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-xxhdpi_ic_logo.webp.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-xxhdpi/ic_logo.webp"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xhdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xhdpi/ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xhdpi_ic_home_black_24dp.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xhdpi/ic_home_black_24dp.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-hdpi_ic_lock.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-hdpi/ic_lock.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/layout_fragment_home.xml.flat",
+        "source": "com.project6.booksharehub.app-main-51:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-hdpi_ic_home_black_24dp.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-hdpi/ic_home_black_24dp.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/layout_fragment_profile.xml.flat",
+        "source": "com.project6.booksharehub.app-main-51:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xxhdpi_ic_profile.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xxhdpi/ic_profile.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xxhdpi_ic_back.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xxhdpi/ic_back.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xhdpi_ic_notifications_black_24dp.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xhdpi/ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xxhdpi_ic_home_black_24dp.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xxhdpi/ic_home_black_24dp.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-hdpi_ic_logo_background.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-hdpi/ic_logo_background.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-mdpi_ic_email.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-mdpi/ic_email.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/xml_backup_rules.xml.flat",
+        "source": "com.project6.booksharehub.app-main-51:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.project6.booksharehub.app-main-51:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-anydpi-v21_ic_logo_background.xml.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-anydpi-v21/ic_logo_background.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xxhdpi_ic_logo_background.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xxhdpi/ic_logo_background.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-mdpi_ic_chat.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-mdpi/ic_chat.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-hdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-hdpi/ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xxxhdpi_ic_home.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xxxhdpi/ic_home.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-hdpi_ic_notifications_black_24dp.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-hdpi/ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/layout_activity_main.xml.flat",
+        "source": "com.project6.booksharehub.app-main-51:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-ldpi_ic_chat.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-ldpi/ic_chat.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-anydpi-v24_ic_lock.xml.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-anydpi-v24/ic_lock.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-anydpi-v21/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-xxxhdpi_ic_logo_round.webp.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-xxxhdpi/ic_logo_round.webp"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xxhdpi_ic_chat.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xxhdpi/ic_chat.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-hdpi_ic_home.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-hdpi/ic_home.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-mdpi_ic_lock.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-mdpi/ic_lock.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-mdpi_ic_logo.webp.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-mdpi/ic_logo.webp"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-anydpi-v21_ic_chat.xml.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-anydpi-v21/ic_chat.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-ldpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/layout_activity_login.xml.flat",
+        "source": "com.project6.booksharehub.app-main-51:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-hdpi_ic_profile.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-hdpi/ic_profile.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-anydpi-v21_ic_dashboard_black_24dp.xml.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-anydpi-v21/ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-xhdpi_ic_logo_foreground.webp.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-xhdpi/ic_logo_foreground.webp"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-ldpi_ic_dashboard_black_24dp.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-ldpi/ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-anydpi-v21_ic_notifications_black_24dp.xml.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-anydpi-v21/ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-ldpi_ic_lock.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-ldpi/ic_lock.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-xhdpi_ic_logo_round.webp.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-xhdpi/ic_logo_round.webp"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-ldpi_ic_notifications_black_24dp.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-ldpi/ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-mdpi_ic_profile.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-mdpi/ic_profile.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-mdpi_ic_logo_round.webp.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-mdpi/ic_logo_round.webp"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xxhdpi_ic_lock.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xxhdpi/ic_lock.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-hdpi_ic_email.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-hdpi/ic_email.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xxxhdpi_ic_logo_background.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xxxhdpi/ic_logo_background.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-anydpi-v26_ic_logo.xml.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-anydpi-v26/ic_logo.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-xxhdpi_ic_logo_foreground.webp.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-xxhdpi/ic_logo_foreground.webp"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-hdpi_ic_back.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-hdpi/ic_back.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xhdpi_ic_email.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xhdpi/ic_email.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-xxhdpi_ic_logo_round.webp.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-xxhdpi/ic_logo_round.webp"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/layout_activity_register.xml.flat",
+        "source": "com.project6.booksharehub.app-main-51:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xxhdpi_ic_email.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xxhdpi/ic_email.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xxxhdpi_ic_back.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xxxhdpi/ic_back.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-mdpi_ic_logo_foreground.webp.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-mdpi/ic_logo_foreground.webp"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-anydpi-v21_ic_back.xml.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-anydpi-v21/ic_back.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-xhdpi_ic_logo.webp.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-xhdpi/ic_logo.webp"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xxxhdpi_ic_profile.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xxxhdpi/ic_profile.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xxhdpi_ic_notifications_black_24dp.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xxhdpi/ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xxxhdpi_ic_home_black_24dp.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xxxhdpi/ic_home_black_24dp.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-hdpi_ic_logo.webp.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-hdpi/ic_logo.webp"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-anydpi-v21_ic_home_black_24dp.xml.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-anydpi-v21/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xxxhdpi_ic_lock.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xxxhdpi/ic_lock.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-hdpi_ic_chat.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-hdpi/ic_chat.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-mdpi_ic_notifications_black_24dp.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-mdpi/ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-ldpi_ic_profile.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-ldpi/ic_profile.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xhdpi_ic_chat.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xhdpi/ic_chat.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-ldpi_ic_email.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-ldpi/ic_email.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-xxxhdpi_ic_logo_foreground.webp.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-xxxhdpi/ic_logo_foreground.webp"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-mdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-mdpi/ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-anydpi-v21_ic_home.xml.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-anydpi-v21/ic_home.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xhdpi_ic_back.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xhdpi/ic_back.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-anydpi-v26_ic_logo_round.xml.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-anydpi-v26/ic_logo_round.xml"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xxxhdpi_ic_email.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xxxhdpi/ic_email.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xhdpi_ic_lock.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xhdpi/ic_lock.png"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-hdpi_ic_logo_round.webp.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-hdpi/ic_logo_round.webp"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/mipmap-hdpi_ic_logo_foreground.webp.flat",
+        "source": "com.project6.booksharehub.app-main-51:/mipmap-hdpi/ic_logo_foreground.webp"
+    },
+    {
+        "merged": "com.project6.booksharehub.app-merged_res-49:/drawable-xxxhdpi_ic_chat.png.flat",
+        "source": "com.project6.booksharehub.app-pngs-44:/drawable-xxxhdpi/ic_chat.png"
+    }
+]

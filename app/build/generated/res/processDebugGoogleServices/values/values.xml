@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">896240117635</string>
+    <string name="google_api_key" translatable="false">AIzaSyC_us0-fxoMmOQ8nzxakK1FvNJld1bxMw0</string>
+    <string name="google_app_id" translatable="false">1:896240117635:android:bd72090367390ec2bc38b6</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC_us0-fxoMmOQ8nzxakK1FvNJld1bxMw0</string>
+    <string name="google_storage_bucket" translatable="false">book-share-hub-final.appspot.com</string>
+    <string name="project_id" translatable="false">book-share-hub-final</string>
+</resources>
