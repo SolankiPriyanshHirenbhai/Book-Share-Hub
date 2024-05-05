@@ -6,17 +6,21 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <string name="alreadyAccount">Already Have An Account? <b>SignIn</b></string>
     <string name="app_name">Book Share Hub</string>
+    <string name="bio">Bio</string>
     <string name="btnBack">btnBack</string>
     <string name="chat">Chat</string>
     <string name="confirmPassword">Confirm Password</string>
+    <string name="donated_books_count">Donated Books Count</string>
+    <string name="donated_books_count_tv">XX</string>
     <string name="email">Email</string>
+    <string name="forgot_password">forgot password</string>
     <string name="gcm_defaultSenderId" translatable="false">896240117635</string>
     <string name="google_api_key" translatable="false">AIzaSyC_us0-fxoMmOQ8nzxakK1FvNJld1bxMw0</string>
     <string name="google_app_id" translatable="false">1:896240117635:android:bd72090367390ec2bc38b6</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC_us0-fxoMmOQ8nzxakK1FvNJld1bxMw0</string>
     <string name="google_storage_bucket" translatable="false">book-share-hub-final.appspot.com</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="home">Home</string>
+    <string name="log_out">Log out</string>
     <string name="login">LogIn</string>
     <string name="logo">Logo</string>
     <string name="my_profile">My Profile</string>
@@ -27,12 +31,33 @@
     <string name="noAccount">Not Have Account?<b> SignUp</b></string>
     <string name="password">Password</string>
     <string name="project_id" translatable="false">book-share-hub-final</string>
+    <string name="received_books_count">Received Books Count</string>
+    <string name="received_books_count_tv">XX</string>
+    <string name="save">SAVE</string>
+    <string name="select_profile">Select Profile</string>
     <string name="signup">Sign Up</string>
     <string name="skip">Continue without LogIn</string>
     <string name="title_activity_main2">MainActivity2</string>
-    <string name="title_dashboard">Dashboard</string>
     <string name="title_home">Home</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="user_age">Age</string>
+    <string name="user_ang_tv">XX</string>
+    <string name="user_bio_tv">abcdefghijklmnopqrstuvxwyz</string>
+    <string name="user_city">City</string>
+    <string name="user_city_tv">State/City</string>
+    <string name="user_e_mail">e-mail</string>
+    <string name="user_email_tv">abcdef444@example.com</string>
+    <string name="user_gender">Gender</string>
+    <string name="user_gender_tv">Male</string>
+    <string name="user_id">User Id</string>
+    <string name="user_id_tv">#000</string>
+    <string name="user_mobile">Mobile</string>
+    <string name="user_mobile_tv">XXXXXXXXXX</string>
+    <string name="user_name">Name</string>
+    <string name="user_name_tv">abc xyz\n</string>
+    <string name="user_pin_code">PIN code</string>
+    <string name="user_pin_code_tv">XXXXXX</string>
+    <string name="user_profile_image">User Profile Image</string>
     <string name="welcome_message">Welcome to Book Share Hub</string>
     <style name="Base.Theme.BookShareHub" parent="Theme.Material3.DayNight.NoActionBar">
         

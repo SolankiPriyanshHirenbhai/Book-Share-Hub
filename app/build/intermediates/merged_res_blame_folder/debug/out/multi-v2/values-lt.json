@@ -57,7 +57,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\SP\\.gradle\\caches\\transforms-3\\568eba98a47f613d740c5135b9d53e67\\transformed\\play-services-base-18.0.1\\res\\values-lt\\values.xml",
+                    "source": "C:\\Users\\SP\\.gradle\\caches\\transforms-3\\4e3aefd4d151713d50ffe1479e3420f7\\transformed\\play-services-base-18.1.0\\res\\values-lt\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -74,7 +74,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\SP\\.gradle\\caches\\transforms-3\\3413c79a7227201b746ecd45886674a7\\transformed\\play-services-basement-18.1.0\\res\\values-lt\\values.xml",
+                    "source": "C:\\Users\\SP\\.gradle\\caches\\transforms-3\\dcc7f37d55119c2e0704210fa92a58d2\\transformed\\play-services-basement-18.3.0\\res\\values-lt\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

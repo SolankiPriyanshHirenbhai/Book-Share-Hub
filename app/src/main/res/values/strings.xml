@@ -19,9 +19,33 @@
     <string name="chat">Chat</string>
     <string name="home">Home</string>
     <string name="my_profile">My Profile</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_main2">MainActivity2</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="user_profile_image">User Profile Image</string>
+    <string name="user_id">User Id</string>
+    <string name="user_id_tv">#000</string>
+    <string name="bio">Bio</string>
+    <string name="user_bio_tv">abcdefghijklmnopqrstuvxwyz</string>
+    <string name="user_name">Name</string>
+    <string name="user_name_tv">abc xyz\n</string>
+    <string name="user_age">Age</string>
+    <string name="user_ang_tv">XX</string>
+    <string name="received_books_count">Received Books Count</string>
+    <string name="received_books_count_tv">XX</string>
+    <string name="donated_books_count">Donated Books Count</string>
+    <string name="donated_books_count_tv">XX</string>
+    <string name="user_gender">Gender</string>
+    <string name="user_gender_tv">Male</string>
+    <string name="user_e_mail">e-mail</string>
+    <string name="user_email_tv">abcdef444@example.com</string>
+    <string name="user_mobile">Mobile</string>
+    <string name="user_mobile_tv">XXXXXXXXXX</string>
+    <string name="user_pin_code">PIN code</string>
+    <string name="user_pin_code_tv">XXXXXX</string>
+    <string name="user_city">City</string>
+    <string name="user_city_tv">State/City</string>
+    <string name="log_out">Log out</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="save">SAVE</string>
+    <string name="select_profile">Select Profile</string>
+    <string name="forgot_password">forgot password</string>
 </resources>

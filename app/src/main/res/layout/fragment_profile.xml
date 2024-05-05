@@ -1,14 +1,252 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
     tools:context=".ProfileFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Profile Fragment" />
 
-</FrameLayout>
+    <ImageView
+        android:id="@+id/user_profile_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/user_profile_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_logo_background" />
+
+    <TextView
+        android:id="@+id/user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/user_profile_image"
+        android:layout_marginTop="30dp"
+        android:text="@string/user_id"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user_id_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/user_profile_image"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/user_id"
+        android:text="@string/user_id_tv"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user_bio"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/user_id"
+        android:text="@string/bio"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user_bio_tv"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_id_tv"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@id/user_id"
+        android:text="@string/user_bio_tv" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/user_bio"
+        android:text="@string/user_name"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/user_bio"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@id/user_id"
+        android:text="@string/user_name_tv"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user_age"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/user_name"
+        android:text="@string/user_age"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user_age_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/user_name_tv"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@id/user_id"
+        android:text="@string/user_ang_tv"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/user_received_books_count"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_age_tv"
+        android:text="@string/received_books_count"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user_received_books_count_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/user_age_tv"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@id/user_id"
+        android:text="@string/received_books_count_tv"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/user_donated_books_count"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_received_books_count"
+        android:text="@string/donated_books_count"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user_donated_books_count_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/user_received_books_count"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@id/user_id"
+        android:text="@string/donated_books_count_tv"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/user_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/user_donated_books_count"
+        android:text="@string/user_gender"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user_gender_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/user_donated_books_count"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@id/user_id"
+        android:text="@string/user_gender_tv"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/user_email"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/user_gender"
+        android:text="@string/user_e_mail"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user_email_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/user_gender"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@id/user_id"
+        android:text="@string/user_email_tv"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/user_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/user_email"
+        android:text="@string/user_mobile"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user_mobile_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/user_email_tv"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@id/user_id"
+        android:text="@string/user_mobile_tv"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/user_pin_code"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/user_mobile"
+        android:text="@string/user_pin_code"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user_pin_code_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/user_mobile_tv"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@id/user_id"
+        android:text="@string/user_pin_code_tv"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/user_city"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/user_pin_code"
+        android:text="@string/user_city"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/user_city_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/user_pin_code_tv"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@id/user_id"
+        android:text="@string/user_city_tv" />
+
+    <Button
+        android:id="@+id/btn_log_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/log_out"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_update_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/update_profile"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:onClick="updateProfile"/>
+
+
+</RelativeLayout>

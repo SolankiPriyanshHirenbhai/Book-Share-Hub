@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    tools:context=".UpdateProfileActivity">
+
+    <ImageButton
+        android:id="@+id/user_profile_btn"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/user_profile_image"
+        android:src="@drawable/ic_logo_background" />
+
+
+    <TextView
+        android:id="@+id/user_bio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_profile_image"
+        android:layout_marginTop="153dp"
+        android:text="@string/bio"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/user_bio_et"
+        android:inputType="text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_below="@id/user_profile_image"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="140dp"
+        android:layout_toRightOf="@id/user_pin_code"
+        android:hint="@string/bio"/>
+
+
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_bio"
+        android:text="@string/user_name"
+        android:layout_marginTop="20dp"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:minHeight="48dp"
+        android:inputType="text"
+        android:id="@+id/user_name_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/user_pin_code"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/user_bio_et"
+        android:hint="@string/user_name"/>
+
+
+
+    <TextView
+        android:id="@+id/user_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_name"
+        android:layout_marginTop="20dp"
+        android:text="@string/user_age"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/user_age_et"
+        android:minHeight="48dp"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/user_pin_code"
+        android:layout_below="@id/user_name_et"
+        android:hint="@string/user_age"/>
+
+
+
+    <TextView
+        android:id="@+id/user_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/user_age"
+        android:text="@string/user_gender"
+        android:layout_marginTop="20dp"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/user_gender_et"
+        android:minHeight="48dp"
+        android:inputType="text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/user_pin_code"
+        android:layout_below="@id/user_age_et"
+        android:hint="@string/user_gender"/>
+
+
+
+    <TextView
+        android:id="@+id/user_email"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/user_gender"
+        android:text="@string/user_e_mail"
+        android:layout_marginTop="20dp"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/user_email_et"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_gender_et"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/user_pin_code"
+        android:hint="@string/email"/>
+
+
+
+    <TextView
+        android:id="@+id/user_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/user_email"
+        android:text="@string/user_mobile"
+        android:layout_marginTop="18dp"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/user_mobile_et"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/user_email_et"
+        android:layout_toRightOf="@id/user_pin_code"
+        android:hint="@string/user_mobile"/>
+
+
+
+    <TextView
+        android:id="@+id/user_pin_code"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/user_mobile"
+        android:text="@string/user_pin_code"
+        android:layout_marginTop="18dp"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/user_pin_code_et"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_mobile_et"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/user_pin_code"
+        android:hint="@string/user_pin_code"/>
+
+
+
+    <TextView
+        android:id="@+id/user_city"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/user_pin_code"
+        android:layout_marginTop="14dp"
+        android:text="@string/user_city"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/user_city_et"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_pin_code_et"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/user_pin_code"
+        android:hint="@string/user_city"/>
+
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

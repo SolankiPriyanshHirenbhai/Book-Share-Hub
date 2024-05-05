@@ -13,11 +13,16 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
+import java.util.HashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -90,23 +95,66 @@ public class RegisterActivity extends AppCompatActivity {
         } else if (password.isEmpty()) {
             Toast.makeText(RegisterActivity.this, "Please enter a password", Toast.LENGTH_SHORT).show();
         } else {
-
             mAuth.createUserWithEmailAndPassword(email, password)
-                    .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                    .addOnSuccessListener(new OnSuccessListener<AuthResult>() {
                         @Override
-                        public void onComplete(@NonNull Task<AuthResult> task) {
-                            if (task.isSuccessful()) {
-                                startActivity(new Intent(RegisterActivity.this, MainActivity2.class));
-                                finish();
-                            } else {
-                                Toast.makeText(RegisterActivity.this, "Authentication failed.",
-                                        Toast.LENGTH_SHORT).show();
-                            }
+                        public void onSuccess(AuthResult authResult) {
+                            updateUserInfo();
+                        }
+                    })
+                    .addOnFailureListener(new OnFailureListener() {
+                        @Override
+                        public void onFailure(@NonNull Exception e) {
+                            Toast.makeText(RegisterActivity.this, ""+e.getMessage(), Toast.LENGTH_SHORT);
                         }
                     });
         }
     }
 
+    private void updateUserInfo() {
+
+        long timeStamp = System.currentTimeMillis();
+
+        //get current user uid
+        String uid = mAuth.getUid();
+
+        //setup data to add in db
+        HashMap<String, Object> hashMap = new HashMap<>();
+        hashMap.put("uid", uid);
+        hashMap.put("email", email);
+        hashMap.put("name", "");
+        hashMap.put("userType", "user");//will be changed manually by changing its valu in firebase
+        hashMap.put("profileImage", "");
+        hashMap.put("bio", "");
+        hashMap.put("age", "");
+        hashMap.put("rbc", "");
+        hashMap.put("dbc", "");
+        hashMap.put("gender", "");
+        hashMap.put("mobile", "");
+        hashMap.put("pincode", "");
+        hashMap.put("city", "");
+        hashMap.put("timeStamp", timeStamp);
+
+        //set Data to db
+        DatabaseReference ref = FirebaseDatabase.getInstance().getReference("users");
+        ref.child(uid)
+                .setValue(hashMap)
+                .addOnSuccessListener(new OnSuccessListener<Void>() {
+                    @Override
+                    public void onSuccess(Void unused) {
+                        Toast.makeText(RegisterActivity.this, "User Created Successfully", Toast.LENGTH_SHORT);
+                        //direct user to home page
+                        startActivity(new Intent(RegisterActivity.this, MainActivity2.class));
+                        finish();
+                    }
+                })
+                .addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        Toast.makeText(RegisterActivity.this, ""+e.getMessage(), Toast.LENGTH_SHORT);
+                    }
+                });
+    }
 
     private boolean isValidEmail(String email) {
         String emailRegex = "^[a-zA-Z0-9_+&*-]+(?:\\.[a-zA-Z0-9_+&*-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,7}$";
